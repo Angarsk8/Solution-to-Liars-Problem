@@ -40,9 +40,7 @@ def find_limit(universe, subset)
     distribution[resource] = 0
     
     (0...universe+1).each do |value|
-        
         my_array.each do |value|
-            
             distribution[value[1]] = [distribution[value[1]], distribution[value[0]]+value[2]].min
         end
     end
