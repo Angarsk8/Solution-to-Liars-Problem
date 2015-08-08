@@ -1,6 +1,6 @@
 #define a global variable to allow the inspection
 $PRINT_ARRAY =  true
-#asign nil to the $VERBOSE global variable to disable warnings for re-initializating a constant
+#asign nil to the $VERBOSE global variable to disable warnings for re-initializing a constant
 $VERBOSE = nil
 
 #function that allows the user to input the requested data
